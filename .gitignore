@@ -72,6 +72,7 @@ credentials.json
 config.secret.json
 api_keys.py
 secrets.py
+config.py  # Contains API keys
 
 # Logs
 *.log
