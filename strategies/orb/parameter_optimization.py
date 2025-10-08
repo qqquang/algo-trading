@@ -234,12 +234,14 @@ def main():
     logger.info("ORB STRATEGY - PARAMETER OPTIMIZATION (DAY 3)")
     logger.info("="*80)
 
-    # Load data
-    data_path = "/Users/quangnguyen/Desktop/Algo Trading/data/intraday/5min/SPY.csv"
-    logger.info(f"\nLoading data from: {data_path}")
+    # Load extended data (60 days instead of 1 month)
+    data_path = "/Users/quangnguyen/Desktop/Algo Trading/data/intraday/5min/SPY_extended.csv"
+    logger.info(f"\nLoading EXTENDED data from: {data_path}")
     df = pd.read_csv(data_path, index_col=0, parse_dates=True)
     logger.info(f"Data shape: {df.shape}")
     logger.info(f"Date range: {df.index.min()} to {df.index.max()}")
+    trading_days = len(pd.Series(df.index.date).unique())
+    logger.info(f"Trading days: {trading_days}")
 
     # Run optimization
     start_time = datetime.now()
@@ -251,8 +253,8 @@ def main():
     # Analyze results
     results_df, best_params = analyze_optimization_results(results_df)
 
-    # Save results
-    output_path = "/Users/quangnguyen/Desktop/Algo Trading/strategies/orb/optimization_results.csv"
+    # Save results to new file for extended data
+    output_path = "/Users/quangnguyen/Desktop/Algo Trading/strategies/orb/optimization_results_extended.csv"
     save_optimization_results(results_df, output_path)
 
     logger.info("\n" + "="*80)
