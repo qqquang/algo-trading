@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (large and regeneratable)
+data/daily/stocks/*.csv
+data/daily/stocks/*.parquet
+data/daily/etfs/*.csv
+data/daily/etfs/*.parquet
+data/daily/indicators/*.csv
+data/daily/indicators/*.parquet
+
+# Keep the directory structure but ignore large data files
+!data/daily/stocks/.gitkeep
+!data/daily/etfs/.gitkeep
+!data/daily/indicators/.gitkeep
+
+# Output files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Trading results (can be regenerated)
+rsi2_trades.csv
+rsi2_backtest_results.csv
+*_backtest.png
+*_results.png
+
+# Sensitive information
+*.env
+.env.local
+credentials.json
+config.secret.json
+api_keys.py
+secrets.py
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Keep sample data for testing
+!data/sample/

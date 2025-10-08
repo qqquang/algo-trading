@@ -1,0 +1,431 @@
+{
+  "collection_date": "2025-10-07 21:11:37",
+  "total_symbols": 47,
+  "symbols": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "NVDA",
+    "META",
+    "TSLA",
+    "BRK-B",
+    "JPM",
+    "V",
+    "MA",
+    "JNJ",
+    "UNH",
+    "XOM",
+    "WMT",
+    "PG",
+    "HD",
+    "BAC",
+    "CVX",
+    "ABBV",
+    "LLY",
+    "AVGO",
+    "ORCL",
+    "COST",
+    "AMD",
+    "NFLX",
+    "ADBE",
+    "XLF",
+    "XLK",
+    "XLE",
+    "XLV",
+    "XLI",
+    "XLP",
+    "XLU",
+    "XLB",
+    "XLY",
+    "XLRE",
+    "VIX",
+    "TLT",
+    "GLD",
+    "DXY",
+    "HYG",
+    "LQD"
+  ],
+  "metadata": {
+    "SPY": {
+      "category": "index_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 83043519.87256074,
+      "avg_dollar_volume": 27062422982.43912
+    },
+    "QQQ": {
+      "category": "index_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 42373741.81600956,
+      "avg_dollar_volume": 11992351074.735456
+    },
+    "IWM": {
+      "category": "index_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 28657751.573078454,
+      "avg_dollar_volume": 4662722158.903029
+    },
+    "DIA": {
+      "category": "index_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 4058888.729589805,
+      "avg_dollar_volume": 1088164293.7914534
+    },
+    "AAPL": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 104642656.47152528,
+      "avg_dollar_volume": 9116976550.501154
+    },
+    "MSFT": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 27827753.444842692,
+      "avg_dollar_volume": 5569607304.359809
+    },
+    "GOOGL": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 34577207.12863401,
+      "avg_dollar_volume": 3128858773.0063505
+    },
+    "AMZN": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 73978752.40939865,
+      "avg_dollar_volume": 7851222963.808554
+    },
+    "NVDA": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 462113319.5539626,
+      "avg_dollar_volume": 10933991763.682333
+    },
+    "META": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 21874750.497809637,
+      "avg_dollar_volume": 5147780758.336532
+    },
+    "TSLA": {
+      "category": "mega_tech",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 115041705.85424134,
+      "avg_dollar_volume": 14769231196.773882
+    },
+    "BRK-B": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 4218194.583831143,
+      "avg_dollar_volume": 1128104020.0338013
+    },
+    "JPM": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 13419975.228992434,
+      "avg_dollar_volume": 1477357782.6825058
+    },
+    "V": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 7925095.021903624,
+      "avg_dollar_volume": 1396343073.798905
+    },
+    "MA": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 3499364.1975308643,
+      "avg_dollar_volume": 966406940.2219049
+    },
+    "JNJ": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 7751608.084428514,
+      "avg_dollar_volume": 1004874719.2970352
+    },
+    "UNH": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 4236837.6344086025,
+      "avg_dollar_volume": 1331558139.7761462
+    },
+    "XOM": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 17673128.07646356,
+      "avg_dollar_volume": 1194877830.1364198
+    },
+    "WMT": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 23683097.92911191,
+      "avg_dollar_volume": 938427615.432368
+    },
+    "PG": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 8058679.4105933895,
+      "avg_dollar_volume": 858495971.2476816
+    },
+    "HD": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 4252782.158502589,
+      "avg_dollar_volume": 936035042.2187207
+    },
+    "BAC": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 60831539.068100356,
+      "avg_dollar_volume": 1529149516.5278928
+    },
+    "CVX": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 8553703.225806452,
+      "avg_dollar_volume": 890913693.5639005
+    },
+    "ABBV": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 6989523.855037834,
+      "avg_dollar_volume": 653130395.7136368
+    },
+    "LLY": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 4061131.541218638,
+      "avg_dollar_volume": 1030161935.7183021
+    },
+    "AVGO": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 27941856.98924731,
+      "avg_dollar_volume": 1665789053.1208596
+    },
+    "ORCL": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 12388887.017124651,
+      "avg_dollar_volume": 926451639.8833258
+    },
+    "COST": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 2332550.0199123854,
+      "avg_dollar_volume": 886782378.3474772
+    },
+    "AMD": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 60477115.57148547,
+      "avg_dollar_volume": 4213744143.493807
+    },
+    "NFLX": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 7726130.187176424,
+      "avg_dollar_volume": 2523339048.116314
+    },
+    "ADBE": {
+      "category": "large_caps",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 3031460.1354042212,
+      "avg_dollar_volume": 1046906150.1487607
+    },
+    "XLF": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 55033996.46833931,
+      "avg_dollar_volume": 1534836054.5093572
+    },
+    "XLK": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 9878215.41218638,
+      "avg_dollar_volume": 1009110781.8338523
+    },
+    "XLE": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 20817880.20708881,
+      "avg_dollar_volume": 1150118943.7913275
+    },
+    "XLV": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 9808511.668657904,
+      "avg_dollar_volume": 982656482.2028807
+    },
+    "XLI": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 11376346.077260057,
+      "avg_dollar_volume": 921780504.8730582
+    },
+    "XLP": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 12691384.508164078,
+      "avg_dollar_volume": 726750062.8687515
+    },
+    "XLU": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 14676409.159697331,
+      "avg_dollar_volume": 771047451.6381506
+    },
+    "XLB": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 6268737.753882915,
+      "avg_dollar_volume": 388464290.368806
+    },
+    "XLY": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 5244785.065710872,
+      "avg_dollar_volume": 690570523.1747869
+    },
+    "XLRE": {
+      "category": "sector_etfs",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 4565408.522500996,
+      "avg_dollar_volume": 154966997.85192743
+    },
+    "VIX": {
+      "category": "regime",
+      "start_date": "2015-10-12",
+      "end_date": "2018-01-31",
+      "total_days": 574,
+      "avg_volume": 754198.7648083623,
+      "avg_dollar_volume": 5384486066.038137
+    },
+    "TLT": {
+      "category": "regime",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 18505646.63480685,
+      "avg_dollar_volume": 1829386445.1667852
+    },
+    "GLD": {
+      "category": "regime",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 8711717.045001991,
+      "avg_dollar_volume": 1455883272.7655554
+    },
+    "DXY": {
+      "category": "regime",
+      "start_date": "2015-10-12",
+      "end_date": "2020-04-29",
+      "total_days": 975,
+      "avg_volume": 0.0,
+      "avg_dollar_volume": 0.0
+    },
+    "HYG": {
+      "category": "regime",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 26469108.920748707,
+      "avg_dollar_volume": 1733275614.9144483
+    },
+    "LQD": {
+      "category": "regime",
+      "start_date": "2015-10-12",
+      "end_date": "2025-10-06",
+      "total_days": 2511,
+      "avg_volume": 14416477.538829152,
+      "avg_dollar_volume": 1461428392.5219698
+    }
+  }
+}
