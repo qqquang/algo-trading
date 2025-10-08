@@ -2,38 +2,38 @@
 
 ## Summary Statistics
 
-- **Total Trades**: 3
-- **Win Rate**: 0.0%
-- **Total Return**: -0.09%
-- **Sharpe Ratio**: 0.05
-- **Max Drawdown**: 14.90%
-- **Profit Factor**: 0.00
+- **Total Trades**: 17
+- **Win Rate**: 17.6%
+- **Total Return**: -0.13%
+- **Sharpe Ratio**: 0.11
+- **Max Drawdown**: 15.03%
+- **Profit Factor**: 0.07
 
 ## Trade Analysis
 
-- **Winning Trades**: 0
-- **Losing Trades**: 3
-- **Average Win**: $0.00
-- **Average Loss**: $30.50
-- **Largest Win**: $0.00
-- **Largest Loss**: $43.19
+- **Winning Trades**: 3
+- **Losing Trades**: 14
+- **Average Win**: $7.04
+- **Average Loss**: $22.75
+- **Largest Win**: $11.15
+- **Largest Loss**: $63.31
 
 ## Risk-Adjusted Returns
 
-- **Average R-Multiple**: -0.91
-- **Sharpe Ratio**: 0.05
+- **Average R-Multiple**: -0.60
+- **Sharpe Ratio**: 0.11
 
 ## Strategy Metrics
 
-- **Average Holding Time**: 1.50 hours
+- **Average Holding Time**: 1.20 hours
 - **Average OR Range**: $0.00
 
 ## Capital
 
 - **Initial Capital**: $100,000
-- **Final Capital**: $99,908
-- **Total P&L**: $-91.51
+- **Final Capital**: $99,870
+- **Total P&L**: $-297.45
 
 ---
 
-*Generated: 2025-10-08 01:30:09*
+*Generated: 2025-10-08 01:36:14*

@@ -28,14 +28,14 @@ BREAKOUT_BUFFER_PCT: float = 0.0005  # 0.05%
 # Number of bars price must stay above/below OR for confirmation
 CONFIRMATION_BARS: int = 2
 
-# Volume multiplier for entry confirmation
-VOLUME_MULTIPLIER: float = 1.5
+# Volume multiplier for entry confirmation (Day 3: Reduced from 1.5 to 1.2)
+VOLUME_MULTIPLIER: float = 1.2
 
 # Minimum ATR multiplier vs average (avoid low volatility days)
 MIN_ATR_MULTIPLIER: float = 0.5
 
-# Minimum OR range as % of price (avoid tiny ranges)
-MIN_OR_RANGE_PCT: float = 0.002  # 0.2%
+# Minimum OR range as % of price (avoid tiny ranges) (Day 3: Reduced from 0.002 to 0.001)
+MIN_OR_RANGE_PCT: float = 0.001  # 0.1%
 
 # Maximum gap size as % (skip high gap days)
 MAX_GAP_PCT: float = 0.01  # 1%
