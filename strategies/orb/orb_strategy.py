@@ -440,14 +440,17 @@ class ORBStrategy:
                 logger.debug(f"Entry rejected: Gap too large {gap_pct*100:.2f}%")
                 return False
 
-        # Optional: Trend filter using EMAs
-        if 'EMA_Fast' in row.index and 'EMA_Slow' in row.index:
-            if direction == 'long' and row['EMA_Fast'] < row['EMA_Slow']:
-                logger.debug("Entry rejected: EMAs not aligned for long")
-                return False
-            if direction == 'short' and row['EMA_Fast'] > row['EMA_Slow']:
-                logger.debug("Entry rejected: EMAs not aligned for short")
-                return False
+        # Trend filter using EMA_21 (Day 4: Only trade in direction of trend)
+        if config.USE_TREND_FILTER:
+            if 'EMA_21' in row.index:
+                # Long only if price > EMA_21 (uptrend)
+                if direction == 'long' and row['Close'] < row['EMA_21']:
+                    logger.debug(f"Entry rejected: Price {row['Close']:.2f} < EMA_21 {row['EMA_21']:.2f} for long")
+                    return False
+                # Short only if price < EMA_21 (downtrend)
+                if direction == 'short' and row['Close'] > row['EMA_21']:
+                    logger.debug(f"Entry rejected: Price {row['Close']:.2f} > EMA_21 {row['EMA_21']:.2f} for short")
+                    return False
 
         return True
 

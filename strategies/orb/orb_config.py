@@ -25,17 +25,17 @@ MARKET_OPEN_MINUTE: int = 30
 # Buffer above/below OR to avoid false breakouts (% of price)
 BREAKOUT_BUFFER_PCT: float = 0.0005  # 0.05%
 
-# Number of bars price must stay above/below OR for confirmation
-CONFIRMATION_BARS: int = 2
+# Number of bars price must stay above/below OR for confirmation (Day 3 Extended: optimized = 1)
+CONFIRMATION_BARS: int = 1
 
-# Volume multiplier for entry confirmation (Day 3: Reduced from 1.5 to 1.2)
-VOLUME_MULTIPLIER: float = 1.2
+# Volume multiplier for entry confirmation (Day 3 Extended: 60-day optimization = 1.5x)
+VOLUME_MULTIPLIER: float = 1.5
 
 # Minimum ATR multiplier vs average (avoid low volatility days)
 MIN_ATR_MULTIPLIER: float = 0.5
 
-# Minimum OR range as % of price (avoid tiny ranges) (Day 3: Reduced from 0.002 to 0.001)
-MIN_OR_RANGE_PCT: float = 0.001  # 0.1%
+# Minimum OR range as % of price (avoid tiny ranges) (Day 3 Extended: 60-day optimization = 0.2%)
+MIN_OR_RANGE_PCT: float = 0.002  # 0.2%
 
 # Maximum gap size as % (skip high gap days)
 MAX_GAP_PCT: float = 0.01  # 1%
@@ -44,21 +44,27 @@ MAX_GAP_PCT: float = 0.01  # 1%
 # EXIT PARAMETERS
 # ============================================================================
 
-# Initial stop loss as multiple of OR range
-INITIAL_STOP_MULTIPLIER: float = 0.75
+# Initial stop loss as multiple of OR range (Day 3 Extended: 60-day optimization = 0.5x)
+INITIAL_STOP_MULTIPLIER: float = 0.5
 
 # Breakeven move trigger (move stop to BE after this much profit)
 BREAKEVEN_TRIGGER_MULTIPLIER: float = 0.5  # Move to BE after 0.5x OR profit
 
-# Profit targets as multiples of OR range (for scaled exits)
-PROFIT_TARGET_1_MULTIPLIER: float = 1.0   # 50% position
-PROFIT_TARGET_2_MULTIPLIER: float = 1.5   # 25% position
-PROFIT_TARGET_3_MULTIPLIER: float = 2.0   # Final 25% position
+# DAY 5 OPTIMIZATION: Single profit target outperforms scaled exits
+# Single target at 0.75x OR: 0.78% return vs 0.40% with scaled exits (+95% improvement)
+PROFIT_TARGET_1_MULTIPLIER: float = 0.75  # Exit entire position at 0.75x OR
+PROFIT_TARGET_2_MULTIPLIER: float = 0.75  # Same as T1 (single target)
+PROFIT_TARGET_3_MULTIPLIER: float = 0.75  # Same as T1 (single target)
 
-# Position scaling percentages
-SCALE_OUT_PCT_1: float = 0.50  # 50% at target 1
-SCALE_OUT_PCT_2: float = 0.25  # 25% at target 2
-SCALE_OUT_PCT_3: float = 0.25  # 25% at target 3
+# Position scaling percentages (100% exit at single target)
+SCALE_OUT_PCT_1: float = 1.00  # 100% at target 1 (Day 5 optimization)
+SCALE_OUT_PCT_2: float = 0.00  # None at target 2
+SCALE_OUT_PCT_3: float = 0.00  # None at target 3
+
+# Legacy scaled targets (deprecated after Day 5 testing):
+# PROFIT_TARGET_1_MULTIPLIER: float = 1.0   # Old: 50% at 1.0x
+# PROFIT_TARGET_2_MULTIPLIER: float = 1.5   # Old: 25% at 1.5x
+# PROFIT_TARGET_3_MULTIPLIER: float = 2.0   # Old: 25% at 2.0x
 
 # Trailing stop multiplier (after reaching target 1)
 TRAILING_STOP_MULTIPLIER: float = 0.3
@@ -148,6 +154,9 @@ RSI_PERIOD: int = 14
 # EMA periods for trend filter (optional)
 EMA_FAST_PERIOD: int = 9
 EMA_SLOW_PERIOD: int = 21
+
+# Enable trend filter (Day 4: Only trade in direction of trend)
+USE_TREND_FILTER: bool = True  # Only long if price > EMA_21, only short if price < EMA_21
 
 # ADX period for trend strength (optional)
 ADX_PERIOD: int = 14
