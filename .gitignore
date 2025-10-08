@@ -60,10 +60,10 @@ data/daily/indicators/*.parquet
 *.pdf
 
 # Trading results (can be regenerated)
-rsi2_trades.csv
-rsi2_backtest_results.csv
-*_backtest.png
-*_results.png
+results/*.csv
+results/*.png
+results/*.jpg
+results/*.pdf
 
 # Sensitive information
 *.env
