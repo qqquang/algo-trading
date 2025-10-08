@@ -19,6 +19,7 @@ try:
     from config import (
         ALPHA_VANTAGE_API_KEY,
         ALPHA_VANTAGE_CALLS_PER_MINUTE,
+        ALPHA_VANTAGE_CALLS_PER_DAY,
         INTRADAY_SYMBOLS,
         INTRADAY_INTERVAL,
         OUTPUT_SIZE,

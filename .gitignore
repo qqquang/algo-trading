@@ -48,6 +48,10 @@ data/daily/etfs/*.parquet
 data/daily/indicators/*.csv
 data/daily/indicators/*.parquet
 
+# Intraday data files (large and regeneratable)
+data/intraday/**/*.csv
+data/intraday/**/*.parquet
+
 # Keep the directory structure but ignore large data files
 !data/daily/stocks/.gitkeep
 !data/daily/etfs/.gitkeep

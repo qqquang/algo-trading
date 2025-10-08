@@ -1,0 +1,13 @@
+{
+  "collection_date": "2025-10-08 00:13:14",
+  "interval": "15min",
+  "symbols_collected": [
+    "SPY",
+    "QQQ",
+    "AAPL",
+    "MSFT",
+    "NVDA"
+  ],
+  "symbols_failed": [],
+  "total_data_points": 7062
+}
